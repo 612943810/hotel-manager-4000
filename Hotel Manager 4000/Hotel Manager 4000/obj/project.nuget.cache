@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0ezECbxGpPUbTtgcnr2sRq0X4iIH8qqvFcCld6wlx6ZP+aOVnVtTWyjyPV0rKOWWnsM6364OweOi5qVjHN5SBQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\Hotel Manager 4000.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Raiyan Rofiquzzaman\\.nuget\\packages\\bootstrap\\5.2.3\\bootstrap.5.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

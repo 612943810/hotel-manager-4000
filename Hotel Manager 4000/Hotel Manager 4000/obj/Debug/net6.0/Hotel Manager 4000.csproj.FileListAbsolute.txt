@@ -1,0 +1,31 @@
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.csproj.AssemblyReference.cache
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.AssemblyInfoInputs.cache
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.AssemblyInfo.cs
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.csproj.CoreCompileInputs.cache
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.RazorAssemblyInfo.cache
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.RazorAssemblyInfo.cs
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\appsettings.json
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.staticwebassets.runtime.json
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.exe
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.deps.json
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.runtimeconfig.json
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.dll
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.pdb
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets\msbuild.Hotel Manager 4000.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets\msbuild.build.Hotel Manager 4000.props
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Hotel Manager 4000.props
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Hotel Manager 4000.props
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\bundle\Hotel Manager 4000.styles.css
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\projectbundle\Hotel Manager 4000.bundle.scp.css
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.dll
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\refint\Hotel Manager 4000.dll
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.pdb
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.genruntimeconfig.cache
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\ref\Hotel Manager 4000.dll
