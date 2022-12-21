@@ -4,12 +4,26 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title> Hotel Manager 4000</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Hotel_Manager_4000.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css"  />
 </head>
+<nav class="navbar navbar-expand bg-info">
+    <div class="container-fluid">
+        <div class="nav navbar-expand">
+            <a class="nav-link">Home</a>
+            <a class="nav-link">Hotel Listing</a>
+
+        </div>
+  
+
+    <div class="nav navbar-expand  justify-content-end ">
+        <a class="nav-link">Register</a>
+        <a class="nav-link">Sign In</a>
+        </div>
+    </div>
+</nav>
 <body>
- 
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
