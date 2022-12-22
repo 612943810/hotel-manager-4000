@@ -7,5 +7,6 @@ namespace Hotel_Manager_4000.Models
         [Key]
         public int OwnerId { get; set; }
         public string OwnerName { get; set; }
+       
     }
 }

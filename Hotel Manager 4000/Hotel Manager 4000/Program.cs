@@ -1,8 +1,12 @@
+using Hotel_Manager_4000.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddDbContext<HotelContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("HotelContext")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -23,5 +27,4 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.Run();
