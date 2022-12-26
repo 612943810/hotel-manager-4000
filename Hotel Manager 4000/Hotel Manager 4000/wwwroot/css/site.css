@@ -1,3 +1,9 @@
+body{
+    background-image:url("/images/hotelbackground.jpg");
+    background-repeat:no-repeat;
+    max-width:100%;
+}
+
 :root {
     --ming: #16697aff;
     --opal: #a8c7bbff;
@@ -13,16 +19,25 @@
 .bg-primary {
     background-color: var(--ming)!important;
 }
+.text-bg-primary {
+    background-color: var(--ming) !important;
+}
 .btn-secondary {
     background-color:var(--opal)
 }
 .bg-secondary {
     background-color: var(--opal) !important;
 }
+.text-bg-secondary {
+    background-color: var(--opal) !important;
+}
 .btn-success {
   background-color:var(--bittersweet);
 }
 .bg-sucesss {
+    background-color: var(--bittersweet) !important;
+}
+.text-bg-sucesss {
     background-color: var(--bittersweet) !important;
 }
 .btn-info{
@@ -32,17 +47,29 @@ background-color:var(--jonquil)
 .bg-info {
     background-color: var(--jonquil)!important
 }
-
+.text-bg-info {
+    background-color: var(--jonquil) !important;
+}
 .btn-warning {
     background-color:var(--orange-peel);
 }
 .bg-warning {
     background-color: var(--orange-peel) !important;
 }
+.text-bg-warning {
+    background-color: var(--orange-peel) !important;
+}
 .btn-danger {
 background-color:var(--copper-crayola);
 }
 .bg-danger {
+    background-color: var(--copper-crayola) !important;
+}
+
+.text-danger {
+    color: var(--copper-crayola) !important;
+}
+.text-bg-danger {
     background-color: var(--copper-crayola) !important;
 }
 .btn-light {

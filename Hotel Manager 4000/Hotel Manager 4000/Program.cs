@@ -8,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<HotelContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("HotelContext")));
+
+
 builder.Services.AddIdentity<User, IdentityRole>(options =>
 {
     options.Password.RequiredLength = 12;

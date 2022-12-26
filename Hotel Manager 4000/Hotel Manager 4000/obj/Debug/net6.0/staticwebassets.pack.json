@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\wwwroot\\images\\hotelbackground.jpg",
+      "PackagePath": "staticwebassets\\images\\hotelbackground.jpg"
+    },
+    {
       "Id": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
