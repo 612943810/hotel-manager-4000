@@ -19,6 +19,9 @@ body{
 .bg-primary {
     background-color: var(--ming)!important;
 }
+.text-primary {
+  color: var(--ming) !important;
+}
 .text-bg-primary {
     background-color: var(--ming) !important;
 }
@@ -26,6 +29,9 @@ body{
     background-color:var(--opal)
 }
 .bg-secondary {
+    color: var(--opal) !important;
+}
+.text-secondary {
     background-color: var(--opal) !important;
 }
 .text-bg-secondary {
@@ -37,6 +43,9 @@ body{
 .bg-sucesss {
     background-color: var(--bittersweet) !important;
 }
+.text-sucesss {
+    color: var(--bittersweet) !important;
+}
 .text-bg-sucesss {
     background-color: var(--bittersweet) !important;
 }
@@ -47,6 +56,9 @@ background-color:var(--jonquil)
 .bg-info {
     background-color: var(--jonquil)!important
 }
+.text-info {
+   color: var(--jonquil) !important
+}
 .text-bg-info {
     background-color: var(--jonquil) !important;
 }
@@ -55,6 +67,9 @@ background-color:var(--jonquil)
 }
 .bg-warning {
     background-color: var(--orange-peel) !important;
+}
+.text-warning {
+    color: var(--orange-peel) !important;
 }
 .text-bg-warning {
     background-color: var(--orange-peel) !important;

@@ -2,35 +2,33 @@
 <h1 class="text-danger">Register</h1>
 <form>
     <div class="mb-5">
-        <label for="firstName" class="text-danger">Email</label>
+        <label for="firstName" class="text-primary">Email</label>
         <br />
         <input type="text" class="form-control" id="firstName" asp-for="Email" />
         <span asp-validation-for="Email"></span>
-        <label for="firstName" class="text-danger">First Name</label>
+        <label for="firstName" class="text-primary">First Name</label>
         <br/>
         <input type="text" class="form-control" id="firstName" asp-for="FirstName" />        
         <span asp-validation-for="FirstName"></span>
-        <label for="firstName" class="text-danger">Last Name</label>
+        <label for="firstName" class="text-primary">Last Name</label>
         <br />
              
         <input type="text" class="form-control" id="lastName" asp-for="LastName"/>
         <span asp-validation-for="LastName"></span>
-        <label for="userName" class="text-danger">Username</label>
+        <label for="userName" class="text-primary">Username</label>
         <br />
         <input type="text" class="form-control" id="userName" asp-for="Username"/>
-        <label for="userName" class="text-danger">Username</label>
-        <br />
-             <span asp-validation-for="Username"></span>
-        <input type="text" class="form-control" id="userName" asp-for="Username" />
-        <label for="passwordName" class="text-danger">Password</label>
+    <span asp-validation-for="Username"></span>
+
+        <label for="passwordName" class="text-primary">Password</label>
         <br />
         <input type="text" class="form-control" id="passwordName" asp-for="Password" />
         <span asp-validation-for="Password"></span>
-        <label for="repeatPassword" class="text-danger">Re-Enter Password</label>
+        <label for="repeatPassword" class="text-primary">Re-Enter Password</label>
 
         <br />
         <input type="text" class="form-control" id="repeatPassword" asp-for="RepeatPassword" />
         <span asp-validation-for="RepeatPassword"></span>
     </div>
-    <button type="submit" class="btn-warning">Register</button>
+    <button type="submit" class=" btn btn-success">Register</button>
 </form>

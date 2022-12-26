@@ -19,6 +19,7 @@ namespace Hotel_Manager_4000.Controllers
         }
         public IActionResult Register ()
         {
+
             return View();
         }
         public IActionResult Logout() 

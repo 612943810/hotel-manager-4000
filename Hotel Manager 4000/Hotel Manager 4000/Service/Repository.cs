@@ -31,7 +31,7 @@ namespace Hotel_Manager_4000.Service
         public virtual void Delete(T entity)=>dbSet.Remove(entity); 
  
 
-    public virtual void Save()=>hotelContext.SaveChanges();.,
+    public virtual void Save()=>hotelContext.SaveChanges();
     }
         
 }
