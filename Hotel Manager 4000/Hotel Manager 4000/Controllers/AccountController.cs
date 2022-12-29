@@ -1,6 +1,8 @@
 ﻿using Hotel_Manager_4000.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Hotel_Manager_4000.Controllers
 {
@@ -8,20 +10,42 @@ namespace Hotel_Manager_4000.Controllers
     {
         private UserManager<User> userManager;
         private SignInManager<User> signInManager;
-        public AccountController(UserManager<User> userManager,SignInManager<User> signInManager )
+        public AccountController(UserManager<User> userManagerValue,SignInManager<User> signInManagerValue )
         {
-            userManager = userManager;
-            signInManager = signInManager;
+            userManager = userManagerValue;
+            signInManager = signInManagerValue;
         }
-        public IActionResult SignIn()
+        public IActionResult Register()
         {
             return View();
         }
-        public IActionResult Register ()
+        [HttpPost]
+        public async Task<IActionResult> Register (RegistrationViewModel registrationViewModel)
         {
-
+            if (ModelState.IsValid)
+            {
+                var newUser = new User { Email=registrationViewModel.Email,UserName= registrationViewModel.UserName };
+                var registrationSucesss=await userManager.CreateAsync (newUser,registrationViewModel.Password);
+                if(registrationSucesss.Succeeded)
+                {
+                await signInManager.SignInAsync(newUser,isPersistent:false);
+                    return RedirectToAction("Index", "Home");
+                }
+                else 
+                { 
+                foreach(var websiteError in registrationSucesss.Errors)
+                    {
+                        ModelState.AddModelError("The registration was not successful",websiteError.Description);
+                    }
+                }
+            }
+            return View(registrationViewModel);
+        }
+        public IActionResult Login()
+        {
             return View();
         }
+      
         public IActionResult Logout() 
         {
         return View();

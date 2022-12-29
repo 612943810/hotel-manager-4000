@@ -36,6 +36,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 app.UseAuthentication();
+app.UseCors(options =>options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(

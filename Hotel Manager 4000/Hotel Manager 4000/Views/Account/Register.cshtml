@@ -1,6 +1,7 @@
 ﻿@model RegistrationViewModel
 <h1 class="text-danger">Register</h1>
-<form>
+<div asp-validation-summary="All" class="text-secondary">
+    <form method="post" asp-controller="Account" asp-action="Register">
     <div class="mb-5">
         <label for="firstName" class="text-primary">Email</label>
         <br />
@@ -17,8 +18,8 @@
         <span asp-validation-for="LastName"></span>
         <label for="userName" class="text-primary">Username</label>
         <br />
-        <input type="text" class="form-control" id="userName" asp-for="Username"/>
-    <span asp-validation-for="Username"></span>
+        <input type="text" class="form-control" id="userName" asp-for="UserName"/>
+    <span asp-validation-for="UserName"></span>
 
         <label for="passwordName" class="text-primary">Password</label>
         <br />
@@ -27,8 +28,10 @@
         <label for="repeatPassword" class="text-primary">Re-Enter Password</label>
 
         <br />
-        <input type="text" class="form-control" id="repeatPassword" asp-for="RepeatPassword" />
-        <span asp-validation-for="RepeatPassword"></span>
+        <input type="text" class="form-control" id="repeatPassword" asp-for="ConfirmPassword" />
+        <span asp-validation-for="ConfirmPassword"></span>
     </div>
     <button type="submit" class=" btn btn-success">Register</button>
 </form>
+</div>
+
