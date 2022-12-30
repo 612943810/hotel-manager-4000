@@ -17,10 +17,10 @@
         </div>
 
         @if (signInManager.IsSignedIn(User))
-        {
+        { 
             <div class="nav navbar-expand  justify-content-end ">
-            <a class="nav-link">Sign Out</a>
-            <p>Welcome, @User.Identity.Name</p>
+            <a class="nav-link"asp-controller="Account" asp-action="Logout">Sign Out</a>
+          
             </div>
         }
         else

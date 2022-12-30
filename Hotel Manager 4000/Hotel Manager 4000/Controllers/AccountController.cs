@@ -29,7 +29,7 @@ namespace Hotel_Manager_4000.Controllers
                 if(registrationSucesss.Succeeded)
                 {
                 await signInManager.SignInAsync(newUser,isPersistent:false);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Home", new {Area="Owner"});
                 }
                 else 
                 { 
@@ -46,9 +46,10 @@ namespace Hotel_Manager_4000.Controllers
             return View();
         }
       
-        public IActionResult Logout() 
+        public async Task<IActionResult> Logout() 
         {
-        return View();
+            await signInManager.SignOutAsync();
+            return RedirectToAction("Index","Home");
         }
     }
 }

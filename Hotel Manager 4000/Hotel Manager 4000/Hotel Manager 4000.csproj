@@ -12,9 +12,7 @@
     <Folder Include="Areas\Guest\Data\" />
     <Folder Include="Areas\Guest\Models\" />
     <Folder Include="Areas\Guest\Views\" />
-    <Folder Include="Areas\Owner\Controllers\" />
     <Folder Include="Areas\Owner\Data\" />
-    <Folder Include="Areas\Owner\Views\" />
     <Folder Include="wwwroot\lib\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>

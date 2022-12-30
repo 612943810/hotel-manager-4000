@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Raiyan Rofiquzzaman/Documents/Software Development/Current Projects/hotel-manager-4000/Hotel Manager 4000/Hotel Manager 4000/Areas/Owner/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Raiyan Rofiquzzaman/Documents/Software Development/Current Projects/hotel-manager-4000/Hotel Manager 4000/Hotel Manager 4000/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -35,6 +39,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Raiyan Rofiquzzaman/Documents/Software Development/Current Projects/hotel-manager-4000/Hotel Manager 4000/Hotel Manager 4000/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Raiyan Rofiquzzaman/Documents/Software Development/Current Projects/hotel-manager-4000/Hotel Manager 4000/Hotel Manager 4000/Areas/Owner/Views/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcT3duZXJcVmlld3NcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-czmhptvanq
 
 [C:/Users/Raiyan Rofiquzzaman/Documents/Software Development/Current Projects/hotel-manager-4000/Hotel Manager 4000/Hotel Manager 4000/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

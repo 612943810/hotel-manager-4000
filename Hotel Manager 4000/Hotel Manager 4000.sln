@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hotel Manager 4000 Tests", "Hotel Manager 4000 Tests\Hotel Manager 4000 Tests.csproj", "{CACF7367-C785-4632-87F7-428D3F1FF66D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel Manager 4000", "Hotel Manager 4000\Hotel Manager 4000.csproj", "{187EFC4E-FA71-4531-977F-1F85824D6337}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hotel Manager 4000", "Hotel Manager 4000\Hotel Manager 4000.csproj", "{187EFC4E-FA71-4531-977F-1F85824D6337}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
