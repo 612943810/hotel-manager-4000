@@ -42,15 +42,25 @@ namespace Hotel_Manager_4000.Controllers
             }
             return View(registrationViewModel);
         }
-        public IActionResult Login()
+        public async Task<IActionResult> Login(LoginViewModel loginViewModel)
         {
+            if (ModelState.IsValid)
+            {
+                var loginResult = await signInManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password,isPersistent:true,lockoutOnFailure:false);
+                if (loginResult.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home", new { Area = "Owner" });
+                }
+            }
             return View();
         }
-      
+
+     
+        [HttpPost]
         public async Task<IActionResult> Logout() 
         {
             await signInManager.SignOutAsync();
-            return RedirectToAction("Index","Home");
+            return RedirectToAction("Index","Home",new { Area = "" });
         }
     }
 }
