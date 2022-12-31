@@ -19,7 +19,7 @@
         @if (signInManager.IsSignedIn(User))
         { 
             <div class="nav navbar-expand  justify-content-end ">
-            <a class="nav-link"asp-controller="Account" asp-action="Logout">Sign Out</a>
+            <a class="nav-link"asp-controller="Account" asp-action="Logout">Log Out</a>
           
             </div>
         }
@@ -27,7 +27,7 @@
         {
             <div class="nav navbar-expand  justify-content-end ">
         <a class="nav-link" asp-action="Register" asp-controller="Account">Register</a>
-                <a class="nav-link" asp-action="SignIn" asp-controller="Account">Sign In</a>
+                <a class="nav-link" asp-action="Login" asp-controller="Account">Log In</a>
             </div>
         }
       

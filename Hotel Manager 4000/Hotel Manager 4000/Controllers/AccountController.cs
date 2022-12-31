@@ -24,7 +24,8 @@ namespace Hotel_Manager_4000.Controllers
         {
             if (ModelState.IsValid)
             {
-                var newUser = new User { Email=registrationViewModel.Email,UserName= registrationViewModel.UserName };
+                var newUser = new User { Email=registrationViewModel.Email,FirstName=registrationViewModel.FirstName,LastName=registrationViewModel.LastName, 
+                    UserName= registrationViewModel.UserName,Password=registrationViewModel.Password,ConfirmPassword=registrationViewModel.ConfirmPassword};
                 var registrationSucesss=await userManager.CreateAsync (newUser,registrationViewModel.Password);
                 if(registrationSucesss.Succeeded)
                 {

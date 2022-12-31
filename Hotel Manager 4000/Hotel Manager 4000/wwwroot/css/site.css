@@ -6,7 +6,7 @@ body{
 
 :root {
     --ming: #16697aff;
-    --opal: #a8c7bbff;
+    --blue-yonder: #470063;
     --bittersweet: #ff6663ff;
     --orange-peel: #ffa62bff;
     --jonquil: #f9c80eff;
@@ -26,16 +26,16 @@ body{
     background-color: var(--ming) !important;
 }
 .btn-secondary {
-    background-color:var(--opal)
+    background-color:var(--blue-yonder)
 }
 .bg-secondary {
-    color: var(--opal) !important;
+    color: var(--blue-yonder) !important;
 }
 .text-secondary {
-    background-color: var(--opal) !important;
+    color: var(--blue-yonder) !important;
 }
 .text-bg-secondary {
-    background-color: var(--opal) !important;
+   color: var(--blue-yonder) !important;
 }
 .btn-success {
   background-color:var(--bittersweet);
@@ -43,7 +43,7 @@ body{
 .bg-sucesss {
     background-color: var(--bittersweet) !important;
 }
-.text-sucesss {
+.text-sucess {
     color: var(--bittersweet) !important;
 }
 .text-bg-sucesss {
