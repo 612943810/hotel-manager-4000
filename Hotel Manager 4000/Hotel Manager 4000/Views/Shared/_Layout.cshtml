@@ -19,10 +19,9 @@
         @if (signInManager.IsSignedIn(User))
         { 
             <div class="nav navbar-expand  justify-content-end ">
-                <form method="post" asp-controller="Account" asp-action="Logout" asp-area="">
-                    <button type="submit" class="btn btn-info">Logout</button>
-                </form>
-
+            
+        <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Logout">Sign out</a>
+             
             </div>
         }
         else

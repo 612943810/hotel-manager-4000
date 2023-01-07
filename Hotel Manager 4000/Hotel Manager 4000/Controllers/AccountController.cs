@@ -56,7 +56,7 @@ namespace Hotel_Manager_4000.Controllers
         }
 
      
-        [HttpPost]
+       [HttpGet]
         public async Task<IActionResult> Logout() 
         {
             await signInManager.SignOutAsync();

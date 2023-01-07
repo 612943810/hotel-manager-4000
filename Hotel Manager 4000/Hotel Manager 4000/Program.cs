@@ -1,7 +1,10 @@
 using Hotel_Manager_4000.Data;
 using Hotel_Manager_4000.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -17,10 +20,26 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
     options.Password.RequireDigit = true;
     options.Password.RequireLowercase = true;
     options.Password.RequireUppercase = true;
-}).AddEntityFrameworkStores<HotelContext>()
+})
+ 
+  .AddEntityFrameworkStores<HotelContext>()
+  .AddRoles<IdentityRole>()
 .AddDefaultTokenProviders();
-var app = builder.Build();
+/* builder.Services.AddAuthorization(options =>
+{
+   options.FallbackPolicy = new AuthorizationPolicyBuilder()
+         .RequireAuthenticatedUser()
+         .Build();
+});*/
 
+var app=builder.Build();
+using (var appScope = app.Services.CreateScope())
+{
+    var services = appScope.ServiceProvider;
+    var context = services.GetRequiredService<HotelContext>();
+    context.Database.Migrate();
+    await SeedData.CreateUsers(services);
+}
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

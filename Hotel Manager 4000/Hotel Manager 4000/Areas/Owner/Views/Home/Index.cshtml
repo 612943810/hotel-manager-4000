@@ -2,4 +2,4 @@
 @{
     Layout = "_Layout";
 }
-<h2>Wecome to the management system, @User.Identity.Name</h2>
+<h2>Wecome to the management system, @User.Identity.Name. You are @User.IsInRole("Owner")</h2>

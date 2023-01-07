@@ -1,11 +1,12 @@
 ﻿using Hotel_Manager_4000.Areas.Owner.Models;
 using Hotel_Manager_4000.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Hotel_Manager_4000.Data
 {
-    public class HotelContext :IdentityDbContext<User>
+    public class HotelContext : IdentityDbContext<User>
     {
         public HotelContext(DbContextOptions<HotelContext> options)
             : base(options) { }
@@ -22,6 +23,7 @@ namespace Hotel_Manager_4000.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+        
         }
     }
-}
+}  
