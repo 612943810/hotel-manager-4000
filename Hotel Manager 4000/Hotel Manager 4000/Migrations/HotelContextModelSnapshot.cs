@@ -47,9 +47,6 @@ namespace Hotel_Manager_4000.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoomId"), 1L, 1);
 
-                    b.Property<int>("GuestId")
-                        .HasColumnType("int");
-
                     b.Property<int>("RoomLevel")
                         .HasColumnType("int");
 
@@ -57,8 +54,6 @@ namespace Hotel_Manager_4000.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("RoomId");
-
-                    b.HasIndex("GuestId");
 
                     b.ToTable("Rooms");
                 });
@@ -273,17 +268,6 @@ namespace Hotel_Manager_4000.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Hotel_Manager_4000.Areas.Owner.Models.Room", b =>
-                {
-                    b.HasOne("Hotel_Manager_4000.Areas.Owner.Models.Guest", "Guests")
-                        .WithMany("Rooms")
-                        .HasForeignKey("GuestId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Guests");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -333,11 +317,6 @@ namespace Hotel_Manager_4000.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Hotel_Manager_4000.Areas.Owner.Models.Guest", b =>
-                {
-                    b.Navigation("Rooms");
                 });
 #pragma warning restore 612, 618
         }

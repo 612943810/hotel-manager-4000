@@ -1,37 +1,38 @@
 ﻿using Hotel_Manager_4000.Data;
 using Hotel_Manager_4000.Models;
 using Hotel_Manager_4000.Repository;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace Hotel_Manager_4000.Service
 {
     public class Repository<T> : IRepository<T> where T : class
     {
-        protected HotelContext hotelContext { get; set; }
+        private HotelContext hotelContext { get; set; }
         private DbSet<T> dbSet { get; set; }
-        public Repository(HotelContext hotelContext, DbSet<T> dbSet)
+        public Repository(HotelContext hotelContext)
         {
             this.hotelContext = hotelContext;
             this.dbSet = hotelContext.Set<T>(); 
         }
 
-        IEnumerable<T> IRepository<T>.findAll()
+        public virtual IEnumerable<T> findAll()
         {
-            throw new NotImplementedException();
+            yield return dbSet.Find();
         }
 
-        T IRepository<T>.Get(string id)
+        public virtual T Get(string id)
         {
-            throw new NotImplementedException();
+            return dbSet.Find(id);
         }
 
-        public virtual void  Insert(T Entity) =>dbSet.Add(Entity);
+        public virtual void InsertAsync(T Entity) =>  dbSet.AddAsync(Entity);
 
         public virtual void Update(T entity)=>dbSet.Update(entity); 
         public virtual void Delete(T entity)=>dbSet.Remove(entity); 
  
 
-    public virtual void Save()=>hotelContext.SaveChanges();
+    public virtual async Task SaveAsync()=>await hotelContext.SaveChangesAsync();
     }
         
 }

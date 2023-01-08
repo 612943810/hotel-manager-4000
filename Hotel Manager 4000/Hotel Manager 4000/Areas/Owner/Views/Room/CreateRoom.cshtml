@@ -1,5 +1,23 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@using Hotel_Manager_4000.Areas.Owner.Models;
 @{
+    Layout = "_OwnerLayout";
 }
+
+@model Room
+<h1 class="text-danger">Login</h1>
+<div asp-validation-summary="ModelOnly" class="text-secondary fw-bolder"></div>
+<form method="post" asp-controller="Room" asp-action="CreateRoom">
+    <div class="form-group row">
+        <div class="form-col-sm-2">
+            <label asp-for="RoomNumber">Room Number:</label>
+            <input type="text" class="form-control" asp-for="RoomNumber" />
+            <span asp-validation-for="RoomNumber" class="text-secondary fw-bolder"></span>
+        </div>
+      <label asp-for="RoomLevel">Room Level</label>
+        <input type="text" class="form-control" asp-for="RoomLevel" />
+        <span asp-validation-for="RoomLevel" class="text-secondary fw-bolder"></span>
+        <br />
+
+        <button type="submit" class=" btn btn-success mb">Create Room</button>
+
+</form>

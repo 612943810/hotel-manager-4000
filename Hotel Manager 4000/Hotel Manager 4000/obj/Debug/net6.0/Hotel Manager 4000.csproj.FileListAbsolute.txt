@@ -1,5 +1,6 @@
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.dll
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\appsettings.json
@@ -8,8 +9,6 @@ C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hot
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.exe
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.deps.json
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.runtimeconfig.json
-C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.dll
-C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.pdb
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\MailKit.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\MessagePack.dll
@@ -43,7 +42,6 @@ C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hot
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
@@ -65,6 +63,7 @@ C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hot
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\NuGet.Common.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\NuGet.Configuration.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
@@ -272,6 +271,7 @@ C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hot
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\Areas\Owner\Views\Shared\_OwnerLayout.cshtml.rz.scp.css
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\bundle\Hotel Manager 4000.styles.css
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\projectbundle\Hotel Manager 4000.bundle.scp.css
@@ -280,5 +280,5 @@ C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hot
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\refint\Hotel Manager 4000.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.pdb
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.genruntimeconfig.cache
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.pdb
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\ref\Hotel Manager 4000.dll
-C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\Areas\Owner\Views\_Layout.cshtml.rz.scp.css

@@ -5,10 +5,10 @@ namespace Hotel_Manager_4000.Repository
     {
         IEnumerable<T> findAll();
         T Get (String id);
-        void Insert (T Entity);
+        void InsertAsync (T Entity);
         void Update(T entity);
         void Delete(T entity);
-        void Save();
+        Task SaveAsync();
 
 
 

@@ -8,10 +8,11 @@ namespace Hotel_Manager_4000.Data
 {
     public class HotelContext : IdentityDbContext<User>
     {
+        public HotelContext() { }
         public HotelContext(DbContextOptions<HotelContext> options)
             : base(options) { }
-        public DbSet<Room> Rooms { get; set; }
-        public DbSet<Guest> Guests { get; set; }
+        public DbSet<Room>? Rooms { get; set; }
+        public DbSet<Guest>? Guests { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
