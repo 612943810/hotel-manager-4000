@@ -282,3 +282,5 @@ C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hot
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.genruntimeconfig.cache
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.pdb
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\ref\Hotel Manager 4000.dll
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\Areas\Administrator\Views\Shared\_AdministratorLayout.cshtml.rz.scp.css
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll

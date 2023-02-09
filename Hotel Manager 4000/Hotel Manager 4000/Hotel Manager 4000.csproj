@@ -8,11 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\Administrator\Data\" />
+    <Folder Include="Areas\Administrator\Models\" />
     <Folder Include="Areas\Guest\Controllers\" />
     <Folder Include="Areas\Guest\Data\" />
     <Folder Include="Areas\Guest\Models\" />
     <Folder Include="Areas\Guest\Views\" />
     <Folder Include="Areas\Owner\Data\" />
+    <Folder Include="Views\Error\" />
     <Folder Include="wwwroot\lib\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
@@ -23,6 +26,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="MailKit" Version="3.4.3" />
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.3" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.12" />
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.12" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.12" />

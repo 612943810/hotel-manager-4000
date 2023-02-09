@@ -23,5 +23,6 @@ namespace Hotel_Manager_4000.Models
         [Required(ErrorMessage ="Please enter your password again .")]
         [DataType(DataType.Password)]
         public string? ConfirmPassword { get; set; }
+        public string? Role { get; set; }
     }
 }

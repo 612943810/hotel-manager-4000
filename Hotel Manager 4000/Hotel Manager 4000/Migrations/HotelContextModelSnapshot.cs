@@ -41,16 +41,17 @@ namespace Hotel_Manager_4000.Migrations
 
             modelBuilder.Entity("Hotel_Manager_4000.Areas.Owner.Models.Room", b =>
                 {
-                    b.Property<int>("RoomId")
+                    b.Property<int?>("RoomId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoomId"), 1L, 1);
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("RoomId"), 1L, 1);
 
-                    b.Property<int>("RoomLevel")
+                    b.Property<int?>("RoomLevel")
                         .HasColumnType("int");
 
-                    b.Property<int>("RoomNumber")
+                    b.Property<int?>("RoomNumber")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.HasKey("RoomId");
@@ -111,6 +112,9 @@ namespace Hotel_Manager_4000.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");

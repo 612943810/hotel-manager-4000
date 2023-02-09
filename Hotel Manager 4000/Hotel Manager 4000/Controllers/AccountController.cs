@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Hotel_Manager_4000.Controllers
 {
@@ -19,16 +20,24 @@ namespace Hotel_Manager_4000.Controllers
         {
             return View();
         }
+        public IActionResult Error()
+        {
+            return View();
+        }
         [HttpPost]
         public async Task<IActionResult> Register (RegistrationViewModel registrationViewModel)
         {
             if (ModelState.IsValid)
             {
                 var newUser = new User { Email=registrationViewModel.Email,FirstName=registrationViewModel.FirstName,LastName=registrationViewModel.LastName, 
-                    UserName= registrationViewModel.UserName,Password=registrationViewModel.Password,ConfirmPassword=registrationViewModel.ConfirmPassword};
+                    UserName= registrationViewModel.UserName,Password=registrationViewModel.Password,ConfirmPassword=registrationViewModel.ConfirmPassword,Role=registrationViewModel.Role};
                 var registrationSucesss=await userManager.CreateAsync (newUser,registrationViewModel.Password);
                 if(registrationSucesss.Succeeded)
                 {
+                    if (!User.IsInRole(newUser.Role))
+                    {
+                       userManager.AddToRoleAsync(newUser,newUser.Role);                  
+                    }
                 await signInManager.SignInAsync(newUser,isPersistent:false);
                     return RedirectToAction("Index", "Home", new {Area="Owner"});
                 }
@@ -44,13 +53,31 @@ namespace Hotel_Manager_4000.Controllers
         }
         public async Task<IActionResult> Login(LoginViewModel loginViewModel)
         {
+          
             if (ModelState.IsValid)
             {
-                var loginResult = await signInManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password,isPersistent:true,lockoutOnFailure:false);
-                if (loginResult.Succeeded)
+                var loginResult = await signInManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password,isPersistent:false,lockoutOnFailure:false);
+                if(loginResult.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home", new { Area = "Owner" });
-                }
+
+                    if (User.IsInRole("Administrator"))
+                    {
+                        return RedirectToAction("Index", "Home", new { Area = "Administrator" });
+                    }
+                    else if(User.IsInRole("Owner"))
+                    {
+                       return RedirectToAction("Index", "Home", new { Area = "Owner" });
+                    }
+                   
+                      
+                    
+                } else
+                    {
+return RedirectToAction("Error", "Account","" );
+                    }
+                   
+                   
+                
             }
             return View();
         }

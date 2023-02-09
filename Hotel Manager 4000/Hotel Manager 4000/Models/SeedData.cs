@@ -13,7 +13,7 @@ namespace Hotel_Manager_4000.Models
             RoleManager<IdentityRole> roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             User ownerUser = new User
             {
-                Id = 3,
+                Id = 1,
                 FirstName = "Pauline",
                 LastName = "Erna",
                 UserName = "pauer",
