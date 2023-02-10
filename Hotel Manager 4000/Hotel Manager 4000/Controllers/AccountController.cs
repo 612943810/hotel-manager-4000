@@ -1,4 +1,5 @@
-﻿using Hotel_Manager_4000.Models;
+﻿using Hotel_Manager_4000.Areas.Owner.Models;
+using Hotel_Manager_4000.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
@@ -11,7 +12,7 @@ namespace Hotel_Manager_4000.Controllers
     {
         private UserManager<User> userManager;
         private SignInManager<User> signInManager;
-        public AccountController(UserManager<User> userManagerValue,SignInManager<User> signInManagerValue )
+        public AccountController(UserManager<User> userManagerValue, SignInManager<User> signInManagerValue)
         {
             userManager = userManagerValue;
             signInManager = signInManagerValue;
@@ -25,63 +26,48 @@ namespace Hotel_Manager_4000.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Register (RegistrationViewModel registrationViewModel)
+        public async Task<IActionResult> Register(RegistrationViewModel registrationViewModel)
         {
             if (ModelState.IsValid)
             {
-                var newUser = new User { Email=registrationViewModel.Email,FirstName=registrationViewModel.FirstName,LastName=registrationViewModel.LastName, 
-                    UserName= registrationViewModel.UserName,Password=registrationViewModel.Password,ConfirmPassword=registrationViewModel.ConfirmPassword,Role=registrationViewModel.Role};
-                var registrationSucesss=await userManager.CreateAsync (newUser,registrationViewModel.Password);
-                if(registrationSucesss.Succeeded)
+                var newUser = new User { Email = registrationViewModel.Email, FirstName = registrationViewModel.FirstName, LastName = registrationViewModel.LastName,
+                    UserName = registrationViewModel.UserName, Password = registrationViewModel.Password, ConfirmPassword = registrationViewModel.ConfirmPassword, Role = registrationViewModel.Role };
+                var registrationSucesss = await userManager.CreateAsync(newUser, registrationViewModel.Password);
+                if (registrationSucesss.Succeeded)
                 {
                     if (!User.IsInRole(newUser.Role))
                     {
-                       userManager.AddToRoleAsync(newUser,newUser.Role);                  
+                        userManager.AddToRoleAsync(newUser, newUser.Role);
                     }
-                await signInManager.SignInAsync(newUser,isPersistent:false);
-                    return RedirectToAction("Index", "Home", new {Area="Owner"});
+                    await signInManager.SignInAsync(newUser, isPersistent: false);
+                    return RedirectToAction("Index", "Home", new { Area = "Owner" });
                 }
-                else 
-                { 
-                foreach(var websiteError in registrationSucesss.Errors)
+                else
+                {
+                    foreach (var websiteError in registrationSucesss.Errors)
                     {
-                        ModelState.AddModelError("The registration was not successful",websiteError.Description);
+                        ModelState.AddModelError("The registration was not successful", websiteError.Description);
                     }
                 }
             }
             return View(registrationViewModel);
         }
+
         public async Task<IActionResult> Login(LoginViewModel loginViewModel)
         {
-          
+
             if (ModelState.IsValid)
             {
-                var loginResult = await signInManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password,isPersistent:false,lockoutOnFailure:false);
-                if(loginResult.Succeeded)
-                {
+                var loginResult = await signInManager.PasswordSignInAsync(loginViewModel.Username, loginViewModel.Password, isPersistent: false, lockoutOnFailure: false);
 
-                    if (User.IsInRole("Administrator"))
-                    {
-                        return RedirectToAction("Index", "Home", new { Area = "Administrator" });
-                    }
-                    else if(User.IsInRole("Owner"))
-                    {
-                       return RedirectToAction("Index", "Home", new { Area = "Owner" });
-                    }
-                   
-                      
-                    
-                } else
-                    {
-return RedirectToAction("Error", "Account","" );
-                    }
-                   
-                   
-                
+                if (loginResult.Succeeded)
+                {
+                    return RedirectToAction("Index", "Room", new {area="Owner"});
+
+                }
             }
             return View();
         }
-
      
        [HttpGet]
         public async Task<IActionResult> Logout() 
