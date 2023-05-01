@@ -25,12 +25,11 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
   .AddEntityFrameworkStores<HotelContext>()
   .AddRoles<IdentityRole>()
 .AddDefaultTokenProviders();
-/* builder.Services.AddAuthorization(options =>
+builder.Services.AddAuthorization(options =>
 {
-   options.FallbackPolicy = new AuthorizationPolicyBuilder()
-         .RequireAuthenticatedUser()
-         .Build();
-});*/
+    options.AddPolicy("OwnerOnly",policy=>policy.RequireClaim("Owner"));
+ 
+});
 
 var app=builder.Build();
 using (var appScope = app.Services.CreateScope())

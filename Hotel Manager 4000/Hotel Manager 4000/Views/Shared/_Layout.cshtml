@@ -19,7 +19,17 @@
         @if (signInManager.IsSignedIn(User))
         { 
             <div class="nav navbar-expand  justify-content-end ">
-            
+                @if (User.Identity.IsAuthenticated)
+                {
+                    @if (User.IsInRole("Owner"))
+                    {
+                        <a class="nav-link" asp-action="Index" asp-controller="Room" asp-area="Owner">View Rooms</a>
+                    }
+                
+            else{
+                        
+                    }
+                }
         <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Logout">Sign out</a>
              
             </div>
@@ -27,8 +37,11 @@
         else
         {
             <div class="nav navbar-expand  justify-content-end ">
-        <a class="nav-link" asp-action="Register" asp-controller="Account">Register</a>
+                <a class="nav-link" asp-action="Register" asp-controller="Account">Register</a>
+            
+                    
                 <a class="nav-link" asp-action="Login" asp-controller="Account">Log In</a>
+                
             </div>
         }
       

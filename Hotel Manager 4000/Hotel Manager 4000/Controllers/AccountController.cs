@@ -62,7 +62,7 @@ namespace Hotel_Manager_4000.Controllers
 
                 if (loginResult.Succeeded)
                 {
-                    return RedirectToAction("Index", "Room", new {area="Owner"});
+                    return RedirectToAction("Index", "Home","");
 
                 }
             }

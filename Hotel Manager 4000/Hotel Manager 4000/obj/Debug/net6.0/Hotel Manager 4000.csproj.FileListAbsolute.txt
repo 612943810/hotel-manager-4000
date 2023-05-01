@@ -271,7 +271,6 @@ C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hot
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets.pack.json
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\Areas\Owner\Views\Shared\_OwnerLayout.cshtml.rz.scp.css
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\bundle\Hotel Manager 4000.styles.css
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\projectbundle\Hotel Manager 4000.bundle.scp.css
@@ -282,5 +281,4 @@ C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hot
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\Hotel Manager 4000.genruntimeconfig.cache
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Hotel Manager 4000.pdb
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\ref\Hotel Manager 4000.dll
-C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\obj\Debug\net6.0\scopedcss\Areas\Administrator\Views\Shared\_AdministratorLayout.cshtml.rz.scp.css
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll

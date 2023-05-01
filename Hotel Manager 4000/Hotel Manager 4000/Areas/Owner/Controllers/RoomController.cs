@@ -17,7 +17,7 @@ namespace Hotel_Manager_4000.Areas.Owner.Controllers
         }
         public IActionResult Index()
         {
-            var room = hotelContext.Rooms.OrderBy(model => model.RoomId).ToList();
+            var room = hotelContext.Rooms.OrderBy(model => model.RoomNumber).ToList();
             return View(room);
         }
         [HttpGet]
@@ -25,6 +25,7 @@ namespace Hotel_Manager_4000.Areas.Owner.Controllers
         {
            return View();
         }
+
         [HttpPost]
         public async Task<IActionResult> CreateRoom(HotelContext ctx,Room room)
         {
