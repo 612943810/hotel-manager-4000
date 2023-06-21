@@ -11,7 +11,10 @@ namespace Hotel_Manager_4000.Controllers
         {
             return View();
         }
-       
+       public IActionResult HotelListing()
+        {
+            return View();
+        }
 
     }
 }

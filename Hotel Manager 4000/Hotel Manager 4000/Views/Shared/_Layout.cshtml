@@ -13,7 +13,7 @@
     <div class="container-fluid">
         <div class="nav navbar-expand">
             <a class="nav-link" asp-action="Index" asp-controller="Home">Home</a>
-            <a class="nav-link">Hotel Listing</a>
+            <a class="nav-link"  asp-action="HotelListing" asp-controller="Home">Hotel Listing</a>
         </div>
 
         @if (signInManager.IsSignedIn(User))

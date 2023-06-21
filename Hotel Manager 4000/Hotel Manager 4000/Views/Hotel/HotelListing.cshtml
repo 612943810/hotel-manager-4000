@@ -1,0 +1,23 @@
+﻿@using  Hotel_Manager_4000.Models;
+@{
+    <table class="table table-striped table-danger">
+        <thead>
+            <tr>
+                <th>Hotel ID</th>
+                <th>Hotel Name </th>
+                <th>Vaccancies </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (HotelListing hotelData in @Model)
+            {
+                <tr>
+                    <td>@hotelData.HotelId</td>
+                    <td>@hotelData.HotelName</td>
+                    <td>@hotelData.Vaccancies</td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+}
