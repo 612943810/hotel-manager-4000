@@ -4,6 +4,7 @@ using Hotel_Manager_4000.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Hotel_Manager_4000.Migrations
 {
     [DbContext(typeof(HotelContext))]
-    partial class HotelContextModelSnapshot : ModelSnapshot
+    [Migration("20230621165719_ModifyTables")]
+    partial class ModifyTables
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -39,23 +41,6 @@ namespace Hotel_Manager_4000.Migrations
                     b.ToTable("Guests");
                 });
 
-            modelBuilder.Entity("Hotel_Manager_4000.Areas.Owner.Models.Owner", b =>
-                {
-                    b.Property<int>("OwnerId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("OwnerId"), 1L, 1);
-
-                    b.Property<string>("OwnerName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("OwnerId");
-
-                    b.ToTable("Owners");
-                });
-
             modelBuilder.Entity("Hotel_Manager_4000.Areas.Owner.Models.Room", b =>
                 {
                     b.Property<int?>("RoomId")
@@ -74,25 +59,6 @@ namespace Hotel_Manager_4000.Migrations
                     b.HasKey("RoomId");
 
                     b.ToTable("Rooms");
-                });
-
-            modelBuilder.Entity("Hotel_Manager_4000.Models.HotelListing", b =>
-                {
-                    b.Property<int>("HotelId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("HotelId"), 1L, 1);
-
-                    b.Property<string>("HotelName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Vaccancies")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("HotelId");
-
-                    b.ToTable("hotelListings");
                 });
 
             modelBuilder.Entity("Hotel_Manager_4000.Models.User", b =>

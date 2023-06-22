@@ -31,16 +31,13 @@ namespace Hotel_Manager_4000.Controllers
             if (ModelState.IsValid)
             {
                 var newUser = new User { Email = registrationViewModel.Email, FirstName = registrationViewModel.FirstName, LastName = registrationViewModel.LastName,
-                    UserName = registrationViewModel.UserName, Password = registrationViewModel.Password, ConfirmPassword = registrationViewModel.ConfirmPassword, Role = registrationViewModel.Role };
+                    UserName = registrationViewModel.UserName, Password = registrationViewModel.Password, ConfirmPassword = registrationViewModel.ConfirmPassword };
                 var registrationSucesss = await userManager.CreateAsync(newUser, registrationViewModel.Password);
                 if (registrationSucesss.Succeeded)
                 {
-                    if (!User.IsInRole(newUser.Role))
-                    {
-                        userManager.AddToRoleAsync(newUser, newUser.Role);
-                    }
+               
                     await signInManager.SignInAsync(newUser, isPersistent: false);
-                    return RedirectToAction("Index", "Home", new { Area = "Owner" });
+                    return RedirectToAction("Index", "Home", new { Area = "" });
                 }
                 else
                 {

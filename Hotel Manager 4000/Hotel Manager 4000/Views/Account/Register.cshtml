@@ -29,10 +29,6 @@ var userRoles=List<IdentityRole>ViewData["roles"];
         <label class="text-primary" asp-for="ConfirmPassword">Re-Enter Password</label>
         <input type="password" class="form-control" asp-for="ConfirmPassword" />
         <span asp-validation-for="ConfirmPassword" class="text-secondary fw-bolder"></span>
-        <label class="text-primary">Select a role.</label>
-        <select asp-for="Role">
-      
-        </select>
         <br />
     <button type="submit" class=" btn btn-success mb">Register</button>
 
