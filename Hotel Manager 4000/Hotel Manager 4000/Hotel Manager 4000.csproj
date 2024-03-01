@@ -15,6 +15,8 @@
     <Folder Include="Areas\Guest\Models\" />
     <Folder Include="Areas\Guest\Views\" />
     <Folder Include="Areas\Owner\Data\" />
+    <Folder Include="Areas\Owner\Interfaces\" />
+    <Folder Include="Areas\Owner\Repository\" />
     <Folder Include="wwwroot\lib\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>

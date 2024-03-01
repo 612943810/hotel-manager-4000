@@ -10216,7 +10216,7 @@
   },
   "packageFolders": {
     "C:\\Users\\Raiyan Rofiquzzaman\\.nuget\\packages\\": {},
-    "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -10228,7 +10228,7 @@
       "outputPath": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000 Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\Raiyan Rofiquzzaman\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10257,6 +10257,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -10308,7 +10313,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   },

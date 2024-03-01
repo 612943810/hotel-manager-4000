@@ -2,7 +2,7 @@
 
 namespace Hotel_Manager_4000.Areas.Owner.Models
 {
-    public class Owner
+    public class Owners
     {
         [Key]
         public int OwnerId { get; set; }

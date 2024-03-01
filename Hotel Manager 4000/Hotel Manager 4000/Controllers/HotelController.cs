@@ -1,19 +1,26 @@
 ﻿using Hotel_Manager_4000.Data;
+using Hotel_Manager_4000.Models;
+using Hotel_Manager_4000.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Hotel_Manager_4000.Controllers
 {
     public class HotelController : Controller
     {
-        public HotelContext ?hotelContext { get; set; }
-        public HotelController(HotelContext context) 
+        HotelRepository hotelRepository;
+       
+        public HotelController(HotelRepository hotelRepository) 
         {
-            hotelContext = context;
+            hotelRepository = hotelRepository;
         }
         public IActionResult HotelListing()
         {
-            var hotels=hotelContext.hotelListings.OrderBy(model=>model.HotelId).ToList();
+            var hotels = hotelRepository.findAll();
             return View(hotels);
+        }
+     public IActionResult Add(HotelListing hotelListing) {
+        hotelRepository.Insert(hotelListing);
+         return RedirectToAction("HotelListing","Hotel");
         }
     }
 }

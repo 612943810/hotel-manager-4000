@@ -1,4 +1,4 @@
-﻿using Hotel_Manager_4000.Areas.Owner.Models;
+﻿ using Hotel_Manager_4000.Areas.Owner.Models;
 using Hotel_Manager_4000.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -14,7 +14,7 @@ namespace Hotel_Manager_4000.Data
             : base(options) { }
         public DbSet<Room>? Rooms { get; set; }
         public DbSet<Guest>? Guests { get; set; }
-        public DbSet<Owner>? Owners { get; set; } 
+        public DbSet<Owners>? Owners { get; set; } 
         public DbSet<HotelListing> hotelListings { get; set; }  
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

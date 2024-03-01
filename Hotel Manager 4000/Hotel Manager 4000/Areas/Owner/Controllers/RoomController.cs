@@ -1,5 +1,6 @@
 ﻿using Hotel_Manager_4000.Areas.Owner.Models;
 using Hotel_Manager_4000.Data;
+using Hotel_Manager_4000.Repository;
 using Hotel_Manager_4000.Service;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,16 +9,15 @@ namespace Hotel_Manager_4000.Areas.Owner.Controllers
     [Area("Owner")]
     public class RoomController : Controller
     {
-        protected HotelContext ?hotelContext { get; set; }
-        private Repository<Room>? roomData { get; set; }
+    RoomRepository roomRepository;
        
-        public RoomController(HotelContext context)
+        public RoomController(RoomRepository roomRepository)
         {
-            hotelContext= context;
+            roomRepository = roomRepository;
         }
         public IActionResult Index()
         {
-            var room = hotelContext.Rooms.OrderBy(model => model.RoomNumber).ToList();
+            var room = roomRepository.findAll();
             return View(room);
         }
         [HttpGet]
@@ -27,14 +27,10 @@ namespace Hotel_Manager_4000.Areas.Owner.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateRoom(HotelContext ctx,Room room)
+        public async Task<IActionResult> CreateRoom(Room room)
         {
-            roomData = new Repository<Room>(ctx);
-           
-            roomData.InsertAsync(room);
-           await roomData.SaveAsync();
-
-            return RedirectToAction("Index", "Room");   
+            roomRepository.Insert(room);
+           return RedirectToAction("Index", "Room");   
         }
     }
 }
