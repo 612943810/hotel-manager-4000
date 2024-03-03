@@ -356,3 +356,4 @@ C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hot
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000 Tests\obj\Debug\net6.0\Hotel Manager 4000 Tests.genruntimeconfig.cache
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000 Tests\obj\Debug\net6.0\ref\Hotel Manager 4000 Tests.dll
 C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000 Tests\bin\Debug\net6.0\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Raiyan Rofiquzzaman\Documents\Software Development\Current Projects\hotel-manager-4000\Hotel Manager 4000\Hotel Manager 4000 Tests\obj\Debug\net6.0\Hotel Manager 4000 Tests.sourcelink.json

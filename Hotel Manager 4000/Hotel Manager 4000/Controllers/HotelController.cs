@@ -1,5 +1,6 @@
 ﻿using Hotel_Manager_4000.Data;
 using Hotel_Manager_4000.Models;
+using Hotel_Manager_4000.Repository;
 using Hotel_Manager_4000.Service;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,7 +12,7 @@ namespace Hotel_Manager_4000.Controllers
        
         public HotelController(HotelRepository hotelRepository) 
         {
-            hotelRepository = hotelRepository;
+            this.hotelRepository =hotelRepository;
         }
         public IActionResult HotelListing()
         {

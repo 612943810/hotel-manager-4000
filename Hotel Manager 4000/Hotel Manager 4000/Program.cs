@@ -1,5 +1,8 @@
 using Hotel_Manager_4000.Data;
+using Hotel_Manager_4000.Interfaces;
 using Hotel_Manager_4000.Models;
+using Hotel_Manager_4000.Repository;
+using Hotel_Manager_4000.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +12,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<HotelRepository>();
+builder.Services.AddScoped<RoomRepository>();
 builder.Services.AddDbContext<HotelContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("HotelContext")));
 

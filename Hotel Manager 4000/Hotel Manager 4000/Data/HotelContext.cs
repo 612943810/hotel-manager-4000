@@ -15,7 +15,7 @@ namespace Hotel_Manager_4000.Data
         public DbSet<Room>? Rooms { get; set; }
         public DbSet<Guest>? Guests { get; set; }
         public DbSet<Owners>? Owners { get; set; } 
-        public DbSet<HotelListing> hotelListings { get; set; }  
+        public DbSet<HotelListing>? hotelListings { get; set; }  
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)

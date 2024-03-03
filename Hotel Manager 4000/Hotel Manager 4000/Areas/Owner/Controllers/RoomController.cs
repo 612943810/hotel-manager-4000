@@ -1,5 +1,6 @@
 ﻿using Hotel_Manager_4000.Areas.Owner.Models;
 using Hotel_Manager_4000.Data;
+using Hotel_Manager_4000.Interfaces;
 using Hotel_Manager_4000.Repository;
 using Hotel_Manager_4000.Service;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +14,7 @@ namespace Hotel_Manager_4000.Areas.Owner.Controllers
        
         public RoomController(RoomRepository roomRepository)
         {
-            roomRepository = roomRepository;
+            this.roomRepository = roomRepository;
         }
         public IActionResult Index()
         {
