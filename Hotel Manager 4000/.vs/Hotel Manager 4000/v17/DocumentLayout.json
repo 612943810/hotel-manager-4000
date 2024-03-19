@@ -84,8 +84,7 @@
               "RelativeToolTip": "Hotel Manager 4000\\Areas\\Owner\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T05:25:45.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T05:25:45.017Z"
             },
             {
               "$type": "Document",
@@ -94,8 +93,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Hotel/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "dbo.AspNetUsers [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-03T05:22:21.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T05:22:21.944Z"
             },
             {
               "$type": "Document",
@@ -107,8 +105,7 @@
               "RelativeToolTip": "Hotel Manager 4000\\Areas\\Owner\\Models\\Owners.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T05:20:49.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T05:20:49.45Z"
             },
             {
               "$type": "Document",
@@ -120,8 +117,7 @@
               "RelativeToolTip": "Hotel Manager 4000\\Areas\\Owner\\Models\\Room.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAA6wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T05:20:39.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T05:20:39.951Z"
             },
             {
               "$type": "Document",
@@ -133,8 +129,7 @@
               "RelativeToolTip": "Hotel Manager 4000\\Areas\\Owner\\Models\\Guest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T05:20:21.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T05:20:21.963Z"
             },
             {
               "$type": "Document",
@@ -179,8 +174,7 @@
               "RelativeToolTip": "Hotel Manager 4000\\Areas\\Owner\\Controllers\\RoomController.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAIAwwA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T07:42:07.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T07:42:07.05Z"
             },
             {
               "$type": "Document",
@@ -192,8 +186,7 @@
               "RelativeToolTip": "Hotel Manager 4000\\Models\\HotelListing.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T07:28:41.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T07:28:41.835Z"
             },
             {
               "$type": "Document",
@@ -203,7 +196,7 @@
               "RelativeDocumentMoniker": "Hotel Manager 4000\\Controllers\\HotelController.cs",
               "ToolTip": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\Controllers\\HotelController.cs",
               "RelativeToolTip": "Hotel Manager 4000\\Controllers\\HotelController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA2wBIAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-01T07:28:21.98Z",
               "EditorCaption": ""
@@ -230,8 +223,7 @@
               "RelativeToolTip": "Hotel Manager 4000\\Controllers\\AccountController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T07:28:27.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T07:28:27.679Z"
             },
             {
               "$type": "Document",
@@ -243,8 +235,7 @@
               "RelativeToolTip": "Hotel Manager 4000\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T07:28:25.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T07:28:25.849Z"
             },
             {
               "$type": "Document",
@@ -268,8 +259,7 @@
               "RelativeToolTip": "Hotel Manager 4000\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-01T07:22:57.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-01T07:22:57.618Z"
             }
           ]
         }
