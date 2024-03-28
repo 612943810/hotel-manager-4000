@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace Hotel_Manager_4000.Models
@@ -23,6 +25,9 @@ namespace Hotel_Manager_4000.Models
         [DataType(DataType.Password)]
         [Compare("ConfirmPassword")]
         public string? ConfirmPassword { get; set; }
+
+        public List<SelectListItem>? Roles { get; set; }
+        public string Role {  get; set; }
      
        
 

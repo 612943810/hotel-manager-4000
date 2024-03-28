@@ -26,10 +26,11 @@ var userRoles=List<IdentityRole>
         <input type="password" class="form-control"  asp-for="Password" />
         <span asp-validation-for="Password" class="text-secondary fw-bolder"></span>
         <br />
-        <label class="text-primary" asp-for="ConfirmPassword">Re-Enter Password</label>
-        <input type="password" class="form-control" asp-for="ConfirmPassword" />
+   <input type="password" class="form-control" asp-for="ConfirmPassword" />
         <span asp-validation-for="ConfirmPassword" class="text-secondary fw-bolder"></span>
-        <br />
+            <br />
+            <label>Roles </label>
+            <select asp-for="Role" class="form-control" asp-items="Model.Roles" />
     <button type="submit" class=" btn btn-success mb">Register</button>
 
 </form>

@@ -2,6 +2,7 @@
 using Hotel_Manager_4000.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
@@ -12,15 +13,32 @@ namespace Hotel_Manager_4000.Controllers
     {
         private UserManager<User> userManager;
         private SignInManager<User> signInManager;
-        public AccountController(UserManager<User> userManagerValue, SignInManager<User> signInManagerValue)
+        private readonly RoleManager<IdentityRole> roleManager;
+        public AccountController(UserManager<User> userManagerValue, SignInManager<User> signInManagerValue, RoleManager<IdentityRole> roleManagerValue)
         {
             userManager = userManagerValue;
             signInManager = signInManagerValue;
+            roleManager = roleManagerValue;
         }
         public IActionResult Register()
         {
-            return View();
+            var roleList = new List<SelectListItem>();
+            foreach (var role in roleManager.Roles)
+            {
+                roleList.Add(new SelectListItem
+                {
+                    Text = role.Name,
+                    Value = role.Name
+                });
+            }
+            var accountModel = new RegistrationViewModel
+            {
+                Roles = roleList
+            };
+            return View(accountModel);
         }
+
+    
         public IActionResult Error()
         {
             return View();
