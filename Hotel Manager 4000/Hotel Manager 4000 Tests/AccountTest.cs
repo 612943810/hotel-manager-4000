@@ -17,7 +17,7 @@ namespace Hotel_Manager_4000_Tests
     {
     User users;
         private User user;
-        private static Mock<IHotel<User>>userMock;
+       // private static Mock<IHotel<User> userMock;
         [SetUp]
         public void SetUp()
         {

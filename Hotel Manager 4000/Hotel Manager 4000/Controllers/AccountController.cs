@@ -28,7 +28,7 @@ namespace Hotel_Manager_4000.Controllers
                 roleList.Add(new SelectListItem
                 {
                     Text = role.Name,
-                    Value = role.Name
+                    Value = role.Id
                 });
             }
             var accountModel = new RegistrationViewModel

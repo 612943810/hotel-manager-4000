@@ -7,9 +7,6 @@
       "RelativeMoniker": "D:0:0:{187EFC4E-FA71-4531-977F-1F85824D6337}|Hotel Manager 4000\\Hotel Manager 4000.csproj|solutionrelative:hotel manager 4000\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Hotel/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{187EFC4E-FA71-4531-977F-1F85824D6337}|Hotel Manager 4000\\Hotel Manager 4000.csproj|c:\\users\\raiyan rofiquzzaman\\documents\\software development\\current projects\\hotel-manager-4000\\hotel manager 4000\\hotel manager 4000\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{187EFC4E-FA71-4531-977F-1F85824D6337}|Hotel Manager 4000\\Hotel Manager 4000.csproj|solutionrelative:hotel manager 4000\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,17 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "dbo.AspNetRoles [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Hotel/True/SqlTable/dbo.AspNetRoles.sql",
-              "ToolTip": "dbo.AspNetRoles [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-03-28T06:46:09.2Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,38 +36,40 @@
               "RelativeDocumentMoniker": "Hotel Manager 4000\\Views\\Account\\Register.cshtml",
               "ToolTip": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\Views\\Account\\Register.cshtml",
               "RelativeToolTip": "Hotel Manager 4000\\Views\\Account\\Register.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAABMAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-28T06:38:35.053Z",
+              "WhenOpened": "2024-03-29T04:23:14.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Hotel Manager 4000\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Hotel Manager 4000\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAhwB0AAAAkAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAhwB4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T05:36:53.864Z"
+              "WhenOpened": "2024-03-28T05:36:53.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "RegistrationViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\Models\\RegistrationViewModel.cs",
               "RelativeDocumentMoniker": "Hotel Manager 4000\\Models\\RegistrationViewModel.cs",
               "ToolTip": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\Models\\RegistrationViewModel.cs",
               "RelativeToolTip": "Hotel Manager 4000\\Models\\RegistrationViewModel.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwBwAAAA4AAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAIwBwAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T01:58:15.032Z"
+              "WhenOpened": "2024-03-25T01:58:15.032Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Raiyan Rofiquzzaman\\Documents\\Software Development\\Current Projects\\hotel-manager-4000\\Hotel Manager 4000\\Hotel Manager 4000\\Models\\User.cs",
               "RelativeDocumentMoniker": "Hotel Manager 4000\\Models\\User.cs",
