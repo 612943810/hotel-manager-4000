@@ -30,7 +30,7 @@
         <span asp-validation-for="ConfirmPassword" class="text-secondary fw-bolder"></span>
             <br />
             <label>Roles </label>
-            <select asp-for="Role" class="form-control" asp-items="Model.Roles" ></select>
+            <select asp-for="Role" class="form-control" asp-items="ViewBag.Roles" ></select>
     <button type="submit" class=" btn btn-success mb">Register</button>
 
 </form>

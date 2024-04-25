@@ -22,20 +22,10 @@ namespace Hotel_Manager_4000.Controllers
         }
         public IActionResult Register()
         {
-            var roleList = new List<SelectListItem>();
-            foreach (var role in roleManager.Roles)
-            {
-                roleList.Add(new SelectListItem
-                {
-                    Text = role.Name,
-                    Value = role.Id
-                });
-            }
-            var accountModel = new RegistrationViewModel
-            {
-                Roles = roleList
-            };
-            return View(accountModel);
+            var roleList = roleManager.Roles.Select(roleData => new { RoleID= roleData.Id, RoleName = roleData.Name }).ToList();
+            ViewBag.Roles = new SelectList(roleList,"RoleName","RoleName");
+
+            return View();
         }
 
     
@@ -53,9 +43,15 @@ namespace Hotel_Manager_4000.Controllers
                 var registrationSucesss = await userManager.CreateAsync(newUser, registrationViewModel.Password);
                 if (registrationSucesss.Succeeded)
                 {
-               
                     await signInManager.SignInAsync(newUser, isPersistent: false);
-                    return RedirectToAction("Index", "Home", new { Area = "" });
+                    
+                    var roleType = registrationViewModel.Role;
+                    var roleName = await roleManager.FindByNameAsync(roleType);
+                 
+                    await userManager.AddToRoleAsync(newUser,roleType);
+                    
+           
+               return RedirectToAction("Index", "Home", new { Area = "" });
                 }
                 else
                 {

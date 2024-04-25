@@ -11,30 +11,14 @@ namespace Hotel_Manager_4000.Models
         {
             UserManager<User> userManager = serviceProvider.GetRequiredService<UserManager<User>>();
             RoleManager<IdentityRole> roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-            User ownerUser = new User
+            var appRoles = new[] { "Owner", "Secretary", "Staff", "Guest", "Administrator" };
+            foreach(var  role in appRoles)
             {
-                Id = 1,
-                FirstName = "Pauline",
-                LastName = "Erna",
-                UserName = "pauer",
-                Password = "#h!2o!hLw4za",
-                ConfirmPassword = "#h!2o!hLw4za",
-                Email = "pauline.erna@hotel",
-                EmailConfirmed = true,
-                LockoutEnabled = false,
-                SecurityStamp = Guid.NewGuid().ToString()
-            };
-            string mainOwner = "Owner";
-
-            await roleManager.CreateAsync(new IdentityRole(mainOwner));
-
-            var newResult = await userManager.CreateAsync(ownerUser,ownerUser.Password);
-            if (newResult.Succeeded)
-            {
-              
-                    await userManager.AddToRoleAsync(ownerUser,mainOwner);
-               
+                if(!await roleManager.RoleExistsAsync(role))
+                {
+                    await roleManager.CreateAsync(new IdentityRole(role));
+                }
             }
         }
-        }
+    }
 }
